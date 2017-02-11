@@ -12,9 +12,9 @@ First, clone the repository, setup pip (a Python package manager), and install t
 git clone https://github.com/albert-magyar/etc_uno
 cd etc_uno
 python get-pip.py
-pip install numpy
-pip install matplotlib
-pip install pySerial
+python -m pip install numpy
+python -m pip install matplotlib
+python -m pip install pySerial
 ```
 
 Next, plug in the ETC controller to your computer's USB port and the MoTeC Driver TPS1/2 inputs (DTM connector).
